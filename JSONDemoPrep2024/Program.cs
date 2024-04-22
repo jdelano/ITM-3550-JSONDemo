@@ -35,6 +35,8 @@ class Program
                 ]
             }
             """;
+
+
         var bob = JsonSerializer.Deserialize<Customer>(orderJson);
         if (bob is not null)
         {
